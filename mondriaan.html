@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Responsive Coloured Boxes</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+            }
+            .white {
+                grid-column-start: 2;
+                grid-column-end: 6;
+            }
+            .white2 {
+                grid-column-start: 1;
+                grid-row-start: 2;
+                grid-row-end: 6;
+            }
+            .red {
+                grid-column: 2 / 4;
+                grid-row: 2 / 5;
+            }
+            .black { 
+                grid-column: 4 / span 2;
+             }
+            .yellow {
+                grid-column: 2 / span 4;
+            }
+            .blue {
+                grid-column-start: 6;
+                grid-row: 1 / 6;
+            }
+            .white3 {
+                grid-area: 3 / 4 / 5 / 6;
+            }
+            .white4 {
+                grid-column-start: 1;
+                grid-row-start: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="white">
+            </div>
+            <div class="white2">
+            </div>
+            <div class="red">
+            </div>
+            <div class="black">
+            </div>
+            <div class="yellow">
+            </div>
+            <div class="blue">
+            </div>
+            <div class="white3">
+            </div>
+            <div class="white4">
+            </div>
+         </div>
+    </body>
+</html>
