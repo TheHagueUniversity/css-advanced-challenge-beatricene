@@ -32,3 +32,33 @@
 .white4 {
     background-color: white;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+	width: 400px;
+    height:300px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+	width: 500px;
+    height:400px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+	width: 600px;
+    height:500px;
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+	width: 700px;
+    height:600px;
+}
